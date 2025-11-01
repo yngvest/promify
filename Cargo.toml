@@ -1,0 +1,12 @@
+[package]
+name = "promify"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+promql-parser = { git = "https://github.com/GreptimeTeam/promql-parser", version = "0.6.0" }
+wasm-bindgen = "0.2"
